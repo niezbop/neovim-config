@@ -1,5 +1,5 @@
 require("niezbop.keymap")
-require("niezbop.set")
+require("niezbop.options")
 require("niezbop.lazyvim")
 require("niezbop.font")
 require("niezbop.theme")
