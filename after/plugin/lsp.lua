@@ -30,6 +30,7 @@ require("mason-lspconfig").setup({
 	ensure_installed = {
 		"lua_ls",
 		"ruby_lsp",
+		"pylsp",
 		-- "csharp_ls",
 	},
 	handlers = {
