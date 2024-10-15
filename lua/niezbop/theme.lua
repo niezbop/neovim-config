@@ -7,4 +7,9 @@ vim.opt.background = "dark"
 
 -- require('onedark').load()
 
+-- TOKYO NIGHT
 vim.cmd("colorscheme tokyonight-night")
+
+-- SONOKAI
+-- vim.g.sonokai_style = "andromeda"
+-- vim.cmd("colorscheme sonokai")
