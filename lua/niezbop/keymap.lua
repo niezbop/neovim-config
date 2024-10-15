@@ -17,3 +17,9 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 
 vim.keymap.set("n", "<S-h>", vim.cmd.bprevious, { desc = "Previous buffer" })
 vim.keymap.set("n", "<S-l>", vim.cmd.bnext, { desc = "Next buffer" })
+
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move highlighted line down" })
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move highlighted line up" })
+
+-- Keep functionality of J but don't move cursor when doing so
+vim.keymap.set("n", "J", "mzJ`z")
