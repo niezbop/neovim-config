@@ -17,10 +17,6 @@ return {
 			vim.g.sonokai_enable_italic = true
 		end,
 	},
-	-- Tree sitter and friends
-	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
-	"nvim-treesitter/playground",
-	"nvim-treesitter/nvim-treesitter-context",
 
 	"tpope/vim-fugitive", -- Git
 	-- "tpope/vim-sleuth",
