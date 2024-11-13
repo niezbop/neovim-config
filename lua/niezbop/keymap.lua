@@ -24,3 +24,6 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move highlighted line up"
 
 -- Keep functionality of J but don't move cursor when doing so
 vim.keymap.set("n", "J", "mzJ`z")
+
+-- Git
+vim.keymap.set("n", "<leader>gs", vim.cmd.Git, { desc = "[G]it [S]tatus" })
