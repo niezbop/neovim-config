@@ -38,6 +38,7 @@ return {
 					"lua_ls",
 					"ruby_lsp",
 					"pylsp",
+					"omnisharp", -- C#, for Unity
 					-- "csharp_ls",
 				},
 				handlers = {
