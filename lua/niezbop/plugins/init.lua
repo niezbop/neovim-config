@@ -19,5 +19,6 @@ return {
 	},
 
 	"tpope/vim-fugitive", -- Git
+	"norcalli/nvim-colorizer.lua",
 	-- "tpope/vim-sleuth",
 }

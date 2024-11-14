@@ -31,3 +31,7 @@ vim.keymap.set("n", "<leader>gs", vim.cmd.Git, { desc = "[G]it [S]tatus" })
 -- Simpler copy/paste
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]], { desc = "[Y]ank highlighted text in clipboard" })
 vim.keymap.set("n", "<leader>Y", [["+Y]], { desc = "[Y]ank highlighted line in clipboard" })
+
+-- Colorizer
+vim.keymap.set("n", "<leader>ca", vim.cmd.ColorizerAttachToBuffer, { desc = "[C]olorizer: [A]ttach to buffer" })
+vim.keymap.set("n", "<leader>cd", vim.cmd.ColorizerDetachFromBuffer, { desc = "[C]olorizer: [D]etach from buffer" })
