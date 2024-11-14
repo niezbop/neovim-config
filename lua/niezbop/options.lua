@@ -16,3 +16,7 @@ vim.opt.expandtab = true
 
 vim.opt.colorcolumn = "80"
 -- vim.cmd("let g:netrw_liststyle = 3")
+
+-- Use treesitter to base folds on
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldtext = "v:lua.vim.treesitter.foldtext()"
