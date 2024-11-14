@@ -27,3 +27,7 @@ vim.keymap.set("n", "J", "mzJ`z")
 
 -- Git
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git, { desc = "[G]it [S]tatus" })
+
+-- Simpler copy/paste
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]], { desc = "[Y]ank highlighted text in clipboard" })
+vim.keymap.set("n", "<leader>Y", [["+Y]], { desc = "[Y]ank highlighted line in clipboard" })
